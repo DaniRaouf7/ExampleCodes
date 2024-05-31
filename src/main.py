@@ -14,3 +14,8 @@ print("Hello " + input("What is your name?") + "!")
 name = input("What is your name?")
 length = len(name)
 print(length)
+
+# f-String
+score = 2
+height = 1.5
+print(f"your score is {score} and your height is {height}")
