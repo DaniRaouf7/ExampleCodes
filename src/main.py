@@ -19,3 +19,9 @@ print(length)
 score = 2
 height = 1.5
 print(f"your score is {score} and your height is {height}")
+
+# if statements
+if height > 2:
+    print("You are long")
+else:
+    print("You are short")
