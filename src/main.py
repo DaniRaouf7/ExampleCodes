@@ -11,7 +11,7 @@ input("What is your name?")
 print("Hello " + input("What is your name?") + "!")
 
 # Variable coding
-name = input("What is your name?")
+name = input("What is your name?\n")
 length = len(name)
 print(length)
 
@@ -38,3 +38,24 @@ import random
 banana = "yellow"
 kiwi = "brown"
 fruits = [banana, kiwi]
+
+# Loops
+fruits_new = ["Apple", "Peach", "Pear"]
+for fruit in fruits_new:
+    print(fruit)
+    print(fruit + " Pie")
+
+
+# FizzBuzz Bro
+for number in range(1, 101,):
+  if number % 3 == 0 and number % 5 == 0:
+    print("FizzBuzz")
+  elif number % 3 == 0:
+    print("Fizz")
+  elif number % 5 == 0:
+    print("Buzz")
+  else: 
+    print(number)
+
+
+''' Disclaimer, we can use thonny for debugging and to see what a code actually does!'''
