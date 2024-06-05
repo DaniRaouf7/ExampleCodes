@@ -23,5 +23,18 @@ print(f"your score is {score} and your height is {height}")
 # if statements
 if height > 2:
     print("You are long")
+    if score == 3:
+        print("x")
+    elif score == 4:
+        print("b")
 else:
     print("You are short")
+
+# Randomness in python
+import random
+
+# Lists in python
+# Very important in python
+banana = "yellow"
+kiwi = "brown"
+fruits = [banana, kiwi]
