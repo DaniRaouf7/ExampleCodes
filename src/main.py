@@ -56,6 +56,15 @@ for number in range(1, 101,):
     print("Buzz")
   else: 
     print(number)
+    
+# While loop
+hurdles = 6
+while hurdles > 0:
+    jump()
+    hurdles -= 1
+    
+# Hoi gianni 
+    
 
 
 ''' Disclaimer, we can use thonny for debugging and to see what a code actually does!'''
