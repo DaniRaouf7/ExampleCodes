@@ -63,7 +63,7 @@ while hurdles > 0:
     jump()
     hurdles -= 1
     
-# Hoi gianni 
+
     
 
 
