@@ -66,6 +66,7 @@ word_length = len(chosen_word)
 
 # Creating live variable 
 lives = 6
+
 #Testing code
 print(f'Pssst, the solution is {chosen_word}.')
 
@@ -96,4 +97,7 @@ while not end_of_game:
     if "_" not in display:
         end_of_game = True
         print("You win.")
+        
+        
+    print(stages[lives])
 
