@@ -78,14 +78,21 @@ def greet_with_name(name):
 greet_with_name("Dani")
 
 # Parameter is name and argument is Dani
-
 def greet_with(name, location):
     print(f'Hello {name}!')
     print(f'How is it like in {location}?')
     
 greet_with(name = "Dani",location = "Pijnacker")
 
-    
 
+# Dictionaries
+programming_dictionary = {
+    "Bug": "An error in a program that prevents the program from running as expected.", 
+    "Function": "A piece of code that you can easily call over and over again.",
+    "Loop": "Iterates some code untill some certain condition, doing it over and over again"
+}
+
+
+    
 
 ''' Disclaimer, we can use thonny for debugging and to see what a code actually does!'''
