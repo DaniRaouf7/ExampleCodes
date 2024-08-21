@@ -11,6 +11,8 @@ from secretauctionprograme_art import logo
 
 print(logo)
 
+print("Welcome! :)")
+
 bids = {}
 continue_bidding = True
 
