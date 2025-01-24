@@ -1,3 +1,6 @@
+# Disclaimer this ain't main script, these are just annotations for python
+
+
 # Basic print statement
 print("Hello world!")
 
@@ -84,6 +87,19 @@ def greet_with(name, location):
     
 greet_with(name = "Dani",location = "Pijnacker")
 
+# To run your main script & Activate venv
+
+"""
+venv\Scripts\Activate   
+"""
+
+if __name__ == "__main__":
+    main()
+
+# And you need
+
+python -m src._main
+
 
 # Dictionaries
 programming_dictionary = {
@@ -91,7 +107,6 @@ programming_dictionary = {
     "Function": "A piece of code that you can easily call over and over again.",
     "Loop": "Iterates some code untill some certain condition, doing it over and over again"
 }
-
 
     
 
